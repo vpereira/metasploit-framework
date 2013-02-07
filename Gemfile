@@ -3,7 +3,8 @@ source 'http://rubygems.org'
 # Need 3+ for ActiveSupport::Concern
 gem 'activesupport', '>= 3.0.0'
 # Database models shared between framework and Pro.
-gem 'metasploit_data_models', :git => 'git://github.com/rapid7/metasploit_data_models.git', :tag => '0.4.0'
+#I added it to
+gem 'metasploit_data_models', :path => '../metasploit_data_models', :tag => '0.4.0'
 
 group :development do
   # Markdown formatting for yard
