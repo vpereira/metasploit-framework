@@ -11,7 +11,7 @@
 ###
 
 # Sanity check this version of ruby
-require 'msf/sanity'
+#require 'msf/sanity'
 
 # The framework-core depends on Rex
 require 'rex'
